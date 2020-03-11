@@ -14,18 +14,14 @@ in situations where you need a single project log that all of the packages in yo
 Get the root path of your project in whatever way you would like. Once that's accomplished
 provide it to Yalow along with your project name:
 
-.. code-block::
-
-   from yalow import Yalow
-   logger = Yalow(root_path=I_AM_GROOT, project_name='logalog').logger
+    from yalow import Yalow
+    logger = Yalow(root_path=I_AM_GROOT, project_name='logalog').logger
 
 
 Example log output format:
 
-.. code-block::
-
-   2020-03-06 21:16:13,495 - logalog - INFO: Logging initialized for project: logalog
-   2020-03-06 21:16:13,495 - logalog - INFO: IT'S ALIVE!!!!!
-   2020-03-06 21:16:13,496 - logalog.example_package - ERROR: And its minion is HUGE!
+    2020-03-06 21:16:13,495 - logalog - INFO: Logging initialized for project: logalog
+    2020-03-06 21:16:13,495 - logalog - INFO: IT'S ALIVE!!!!!
+    2020-03-06 21:16:13,496 - logalog.example_package - ERROR: And its minion is HUGE!
 
 Refer to examples for usage details.
