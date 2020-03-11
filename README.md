@@ -3,6 +3,8 @@
 
 ## Yet Another LOgging Wrapper
 
+[![Documentation Status](https://readthedocs.org/projects/yalow/badge/?version=latest)](https://yalow.readthedocs.io/en/latest/?badge=latest)
+
 #### Overview
 
 This package provides a generic wrapper for Python's [logging](https://docs.python.org/3.8/library/logging.html)
