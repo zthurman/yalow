@@ -9,7 +9,7 @@ class YalowTest(unittest.TestCase):
     def setUp(self):
         self.project_root = Path(__file__).parent.parent
         self.log_dir = Path(__file__).parent.parent/'log'
-        self.yalow = Yalow(root_path=self.project_root, project='yalowtest')
+        self.yalow = Yalow(root_path=self.project_root, project_name='yalowtest')
 
     def tearDown(self):
         self.yalow.handler.close()
