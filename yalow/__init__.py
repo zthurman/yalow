@@ -5,7 +5,7 @@ import logging
 class Yalow:
     """Yet Another LOgging Wrapper
 
-    This class wraps Python's logging module functionality for the
+    Wraps Python's logging module functionality for the
     generic use case of generating and writing to a shared project
     log file in the 'root_path/log' directory.
 

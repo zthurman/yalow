@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="yalow",
-    version="0.0.1",
+    version="0.0.2",
     author="Zechariah Thurman",
     author_email="zechariah.thurman@gmail.com",
     description="Yet Another LOgging Wrapper",
