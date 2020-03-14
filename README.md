@@ -4,6 +4,7 @@
 ## Yet Another LOgging Wrapper
 
 [![Documentation Status](https://readthedocs.org/projects/yalow/badge/?version=latest)](https://yalow.readthedocs.io/en/latest/?badge=latest)
+![Python package](https://github.com/zthurman/yalow/workflows/Python%20package/badge.svg)
 
 #### Overview
 
